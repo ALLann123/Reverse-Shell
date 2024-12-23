@@ -10,7 +10,7 @@ The reverse shell consists of two parts:
 
 Accessing victim machine can be archived by carrying out reccon to identify open ports and services running onthem, then looking for exploits for this services. When an attacker gets an exploit to leverage a vulnerability onthe target they send malicious packets to the processes hosted onthe port and possibly compromise the system.
 
-#Using the payload Above
+# Using the Python Reverse Shell
 Host the payload on a server using
 
     kali> python3 -m http.server 8080
