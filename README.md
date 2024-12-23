@@ -2,7 +2,7 @@
 Python reverse shell that can be used during a penetration test.
 
 # Background
-After exploitng a machine the attacker needs a way to get access to the machine even after the vulnerability used bythe attacker is fixed. These scenario the attacker uses a reverse connection. By default most enterprise firewalls will block outside connection from connecting into the network, hence the attacker will have to get the target to connect to them using a reverse connection. The reverse shell above is composed of socket and relies onthe TCP protocol which is connection oriented. Socket is an API that allow programs to communicate over a network.
+After exploiting a machine the attacker needs a way to get access to the machine even after the vulnerability used bythe attacker is fixed. These scenario the attacker uses a reverse connection. By default most enterprise firewalls will block outside connection from connecting into the network, hence the attacker will have to get the target to connect to them using a reverse connection. The reverse shell above is composed of socket and relies onthe TCP protocol which is connection oriented. Socket is an API that allow programs to communicate over a network.
 The reverse shell consists of two parts:
 
     a)Ability to connect to the attacker machine.
